@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+#conteudoGeral{
+  margin: auto;
+border: 1px solid black;
+width: 1024px;
+height: 800px;
+
+}
+
+#topo{
+  border: 1px solid black;
+  width: 1024px;
+  height: 70px;
+
+}
+
+#menu{
+  border: 1px solid black;
+  width: 1024px;
+  height: 50px;
+}
+
+#conteudo{
+  border: 1px solid black;
+  width: 1024px;
+  height: 675px;
+  
+
+
+}
+
+#rodape{
+  border: 1px solid black;
+  width: 1024px;
+  height: 70px;
+ 
+
+}
