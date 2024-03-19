@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+[required]{
+  font-family: Arial;
+  color: brown;
+}
+
+[href^="#"]{
+  color: blue;
+  text-decoration: none;
+}
+
+[href$=".com"]{
+  color: green;
+  text-decoration: none;
+}

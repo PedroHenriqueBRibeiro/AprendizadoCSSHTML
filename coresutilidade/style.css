@@ -1,0 +1,38 @@
+:root{
+  --cor1: #FE5E41;
+  --cor2: #EDDEA4;
+  --cor3:  #3A2E39;
+}
+
+@media(prefers-color-scheme: dark){
+  :root{
+    --cor1:#3A2E39;
+    --cor2: #EDDEA4;
+    --cor3: #FE5E41;
+  }
+  
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Segoe UI;
+}
+
+/*cores escolhidas*/
+/* cor 1: #FE5E41
+cor 2: #EDDEA4
+cor 3: #3A2E39 */
+
+
+body{
+  background-color: var(--cor1);
+  color: var(--cor2);
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1{
+  color: var(--cor3)
+}
