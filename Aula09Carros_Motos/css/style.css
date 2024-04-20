@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  margin: 50px;
+}
+
+a{
+  color: #332200;
+  background-color: #febe01;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+h2 {
+  color: white;
+  margin: 0px;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+spam {
+  color: #febe01
+}
+
+.item {
+  color: white;
+  background-color: black;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 40px;
+}

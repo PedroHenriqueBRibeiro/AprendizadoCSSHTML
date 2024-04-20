@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  color: #333;
+  font-family:'Segoe UI';
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.detalhe {
+  padding-bottom: 10px;
+  padding-top: 15px;
+  color: #007bff;
+}
+
+main {
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "grid-foto"
+    "grid-titulo"
+    "grid-redes"
+    "grid-botoes"
+    "grid-rodape";
+}
+
+.foto-container {
+  width: 200px;
+  grid-area: grid-foto;
+}
+
+.foto-perfil {
+  margin: 20px;
+  max-width: 40%;
+  border: 5px solid yellow;
+  border-radius: 10%;
+}
+
+.nome {
+  color: white;
+  margin: 10px;
+  grid-area: grid-titulo;
+}
+
+.redes-container {
+  display: flex;
+  gap: 20px;
+  grid-area: grid-redes;
+}
+
+.icone-rede {
+  width: 30px;
+}
+
+.botoes-container {
+  margin: 50px;
+  display: grid;
+  gap: 30px;
+  grid-area: grid-botoes;
+}
+
+.botao {
+  width: 300px;
+  height: 70px;
+  background-color: yellow;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao:active,
+.botao:hover {
+  background-color: blue;
+  color: white;
+}
+
+.rodape-container {
+  display: grid;
+  gap: 0px;
+  grid-area: grid-rodape;
+}
+
+.texto-pequeno {
+  font-size: 0.8rem;
+  color: white;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
